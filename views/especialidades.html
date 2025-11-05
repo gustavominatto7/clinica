@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Especialidades - Clínica</title>
+  <link rel="stylesheet" href="views/src/css/style.css">
+  <script src="../src/js/utils.js" defer></script>
+  <script src="../src/js/menu.js" defer></script>
+  <script src="../src/js/especialidades.js" defer></script>
+</head>
+<body>
+  <aside id="menu"></aside>
+
+  <main>
+    <h1>🩺 Especialidades Médicas</h1>
+
+    <section class="formulario">
+      <h2>Cadastrar Especialidade</h2>
+      <input id="nome" type="text" placeholder="Nome da especialidade">
+      <button id="btnSalvar" onclick="adicionarEspecialidade()">Salvar</button>
+    </section>
+
+    <section>
+      <h2>Lista de Especialidades</h2>
+      <ul id="listaEspecialidades"></ul>
+    </section>
+
+  </main>
+</body>
+</html>
